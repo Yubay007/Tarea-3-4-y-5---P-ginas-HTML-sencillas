@@ -3,41 +3,51 @@
     <head>
         <meta charset="UTF-8">
         <title>Tarea 5</title>
-    </head>
-    <body>
-        <ul type="disc">
-            <li>Inicio</li>
-            <li>Servicios
-                <ul type="cilcle">
-                    <li>Diseño de páginas web</li>
-                    <li>Diseño e instalación de redes</li>
-                    <li>Cableado</li>
-                    <li>Programación
-                        <ul type="square">
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>Ruby</li>
-                            <li>PHP</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>       
-            <li>Trabajos realizados
-                <ul type="circle">
-                    <li>Páginas web
-                        <ul type="square">
-                            <li>Fruterías Lolailo</li>
-                            <li>Clínicas dentales Ponteblanco</li>
-                        </ul>
-                    </li>
-                    <li>Intalación de redes
-                        <ul type="square">
-                            <li>Clínicas dentales Ponteblanco</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>Contacto</li>                
-        </ul>
-    </body>
+        <style>
+        .disc { list-style-type: disc; }
+        .circle {
+            list-style-type: circle;
+        }
+
+        .square {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <ul class="disc">
+        <li>Inicio</li>
+        <li>Servicios
+            <ul class="circle">
+                <li>Diseño de páginas web</li>
+                <li>Diseño e instalación de redes</li>
+                <li>Cableado</li>
+                <li>Programación
+                    <ul class="square">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Ruby</li>
+                        <li>PHP</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Trabajos realizados
+            <ul class="circle">
+                <li>Páginas web
+                    <ul class="square">
+                        <li>Fruterías Lolailo</li>
+                        <li>Clínicas dentales Ponteblanco</li>
+                    </ul>
+                </li>
+                <li>Intalación de redes
+                    <ul class="square">
+                        <li>Clínicas dentales Ponteblanco</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Contacto</li>
+    </ul>
+</body>
 </html>
